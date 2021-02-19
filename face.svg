@@ -1,5 +1,5 @@
 <svg width="560" height="560" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="285" cy="280" r="220" fill="yellow" stroke="black" stroke-width="10" />
+    <circle class="circle" cx="285" cy="280" r="220" fill="yellow" stroke="black" stroke-width="10" />
     <path
         id="lewe-oko"
         d="M 155 230 C 155 170, 230 170, 230 230"
