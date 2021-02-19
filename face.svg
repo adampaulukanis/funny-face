@@ -1,0 +1,42 @@
+<svg width="560" height="560" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="285" cy="280" r="220" fill="yellow" stroke="black" stroke-width="10" />
+    <path
+        id="lewe-oko"
+        d="M 155 230 C 155 170, 230 170, 230 230"
+        stroke="black"
+        fill="transparent"
+        stroke-width="25"
+        stroke-linecap="round"
+    />
+    <path
+        id="prawe-oko"
+        d="M 340 230 C 340 170, 420 170, 420 230"
+        stroke="black"
+        fill="transparent"
+        stroke-width="25"
+        stroke-linecap="round"
+    />
+    <path
+        id="język"
+        d="M 210 380 A 41 100 0 1 1 290 410"
+        stroke="black"
+        fill="red"
+        stroke-width="20"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+    <path
+        id="uśmiech"
+        d="M 155 330 Q 280 490, 420 330"
+        stroke="black"
+        fill="transparent"
+        stroke-width="25"
+        stroke-linecap="round"
+    />
+    <!-- punkty pomocnicze
+    <circle cx="210" cy="380" r="2" fill="transparent" stroke="red" stroke-width="10" />
+    <circle cx="210" cy="330" r="2" fill="transparent" stroke="red" stroke-width="10" />
+    <circle cx="290" cy="330" r="2" fill="transparent" stroke="red" stroke-width="10" />
+    <circle cx="290" cy="400" r="2" fill="transparent" stroke="red" stroke-width="10" />
+    -->
+</svg>

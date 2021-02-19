@@ -1,0 +1,64 @@
+<!--
+  In the past, the DOCTYPE was needed to specify HTML versions.
+  As of HTML5, providing `html` is sufficient.
+  It is somewhere between a proper HTML tag, and an HTML comment.
+-->
+<!DOCTYPE html>
+<!-- Add the appropriate language for your site -->
+<html lang="en">
+    <head>
+        <!--
+    UTF-8 is a character set including many universal characters.
+    This is an essential tag for all websites, to avoid seeing
+    weird boxes like ▢▢▢
+  -->
+        <meta charset="utf-8" />
+        <!--
+    This critical tag ensures that items on the screen scale
+    correctly on mobile devices. Without this tag, content may
+    appear VERY tiny.
+  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--
+    Set your name and a brief description.
+    Used by search engines.
+  -->
+        <meta name="author" content="Adam" />
+        <meta name="description" content="funny face recreated in SVG" />
+        <!--
+    `og` stands for Open Graph, which is a protocol for how your
+    website appears when linked to from another site. These tags
+    are critical to ensuring your site gains an appropriate card
+    when sharing on social media.
+  -->
+        <meta property="og:title" content="Funny face" />
+        <meta
+            property="og:description"
+            content="I use SVG to recreate this funny face"
+        />
+        <meta property="og:image" content="./face.png" />
+        <meta
+            property="og:url"
+            content="https://adampaulukanis.github.io/funny-face/"
+        />
+        <meta property="og:site_name" content="funny-face" />
+        <!-- Include one or more CSS files -->
+        <link href="style.css" rel="stylesheet" />
+        <!--
+    A favicon is the small picture that shows up in the browser's
+    tab. Historically, these used a proprietary ".ico" format, and
+    you needed to provide many different sizes.
+    Happily, you can now provide a single vector graphic in SVG
+    format. It will scale to any size, and still look crisp.
+  -->
+        <link rel="icon" type="image/svg+xml" href="./face.svg" />
+        <!-- This title shows up in the page's tab, next to the favicon -->
+        <title>Funny face</title>
+    </head>
+    <body class="flex flex-column flex-jc-c flex-ai-c">
+        <ol class="">
+            <li id="original"></li>
+            <li id="imitation"></li>
+        </ol>
+    </body>
+</html>
